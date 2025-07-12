@@ -1,0 +1,78 @@
+* {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-image: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2025/04/lord-of-the-mysteries-new-promotional-poster.jpg?q=70&fit=contain&w=1200&h=628&dpr=1");
+    background-size: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    max-width: 300px;
+    padding: 20px;
+    margin: auto;
+    flex: 1;
+}
+
+.container h1 {
+    color: black;
+    font-size: 20px;
+    
+}
+
+button {
+    padding: 5 10px;
+    font-size: 18px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card {
+  margin-top: 20px;
+  padding:5px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 170px;
+  border-radius: 10px;
+}
+
+
+footer {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* ทำให้ body เต็มหน้าจอ และใช้ flex layout */
+html, body {
+  height: 100%; /*ตัวนี้
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Container ดันเนื้อหาขึ้นข้างบน */
+.container {
+  flex: 1;
+}
+
+
+}
